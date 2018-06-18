@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>my trial bootsrap</title>
+<meta charset= "UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src ="js/bootstrap.min.js"></script>
+      <style>
+            body{background-color: #fff;}
+            /*.container{padding: 0px 200px;}*/
+            .txtarea{max-width: 550px;}
+            .btn{
+            	    padding: 13px 12px;}
+            	    .dropup {margin-top:120px;}
+       </style>
+
+
+</head>
+
+<body>
+	<div class="container">
+	<nav class =" navbar navbar-inverse  navbar-fixed-top">
+		<div class="container fluid">				
+			
+
+			<ul class="nav navbar-nav">
+				<li class ="active"><a href="#">Dashboard</a></li>
+				<li class-="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Notification<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Health Care</a></li>
+						<li><a href="#">Beauty</a></li>
+						<li><a href="#">Food</a></li>
+					</ul>
+				</li>
+				<li><a href="#">My Account</a></li>
+				<li><a href="#">My Profile</a></li>
+				<li><a href="#">My Downloads</a></li>
+			</ul>
+			<a href="#" class="nav navbar-nav navbar-right"><span class="glyphicon glyphicon-shopping-cart text-primary " style="padding-top:12px;">Hi Neerav Parekh</span></a>
+		</div>
+    </nav>
+
+        
+         <form class="form-inline ">
+        	<a href="#"><img src="images/Homepage_06.jpg" alt="logo" style="padding-top:36px;"></a>
+         	<div class="form-group" style="padding-top:36px;">
+         		<label for="email" class="sr-only">Email</label>
+         	    <input type="email" class="form-control" id="email" placeholder="your email">
+         	</div>
+
+         	<div class="form-group" style="padding-top:36px;">
+         		<label for="pwd" class="sr-only">Password</label>
+         		<input type="password" class="form-control" id="pwd" placeholder="your password">
+         	</div>
+         </form>	
+    </div>
+
+
+
+<ol>
+	<li>
+		Wrap the dropdown trigger element within an element with Bootstrap's <code>.dropdown</code> class, or another element that uses <code>position: relative;</code>
+	</li>
+	<li>
+		Add Bootstrap's <code>.dropdown-toggle</code> class and add <code>data-toggle="dropdown"</code> to the trigger element (i.e. the element that users click on to expand the dropdown). In the above example, the trigger is a <a href="https://www.quackit.com/html/tags/html_button_tag.cfm"><code>&lt;button&gt;</code></a> element.
+	</li>
+	<li>
+		Wrap all dropdown items in a <a href="https://www.quackit.com/html/tags/html_div_tag.cfm"><code>&lt;div&gt;</code></a> with <code>.dropdown-menu</code> applied
+	</li>
+	<li>
+		Each dropdown item uses the <a href="https://www.quackit.com/html/tags/html_a_tag.cfm"><code>&lt;a&gt;</code></a> element (but can also use the <a href="https://www.quackit.com/html/tags/html_button_tag.cfm"><code>&lt;button&gt;</code></a> element) with a class of <code>.dropdown-item</code>.
+	</li>
+</ol>
+  
+
+<div class="dropup">
+<button class="btn btn-primary dropdown-toggle" type="button" id="about-us" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+About Us
+</button>
+<div class="dropdown-menu" aria-labelledby="about-us">
+<a class="dropdown-item" href="#">Our Story</a>
+<a class="dropdown-item" href="#">Our Team</a>
+<a class="dropdown-item" href="#">Contact Us</a>
+</div>
+</div>
+
+
+
+sap ielts  php .. ui
+
+
+
+
+
+</body>
+</html>
